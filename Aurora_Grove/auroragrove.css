@@ -1,0 +1,87 @@
+body{
+    font-family: "Raleway",sans-serif;
+    
+}
+.navbar>.navbar-brand>h3{
+    font-weight: 100;
+}
+.navbar{
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+
+}
+
+.nav-item{
+        font-size: 1.4rem;
+    }
+.nav-link:hover{
+    transition: border 0.2s;
+    border-bottom: 1px solid white;
+}
+@media(max-width:768px){
+    .navbar{
+        background: #1f1f1f;
+       
+    }
+    .nav-link:hover{
+        border-bottom: none;
+    }
+    #showcase{
+        min-height: 500px;
+    }
+    #h11{
+        font-size: 4rem;
+    }
+    #h22{
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+#showcase{
+    background: url("../Section_13_Aurora_Grove/Starter/images/main.jpeg") bottom center / cover no-repeat;
+    min-height: 600px;
+    position: relative;
+}
+#h11{
+    font-family: "Questrial",sans-serif;
+    line-height: 1;
+}
+#book{
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+#overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    z-index: 2;
+}
+@media(min-width:768px){
+#h22{
+    margin-top: 10px;
+    padding-left: 330px;
+    font-family: 'PT Sans', sans-serif;
+}
+}
+#quotes{
+        opacity: 0.3;
+    }
+#quotes2{
+    opacity: 0.5;
+}
+#footer1{
+    background-color: #1f1f1f;
+    /* font-weight:100 ; */
+}
